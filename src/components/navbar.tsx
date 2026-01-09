@@ -15,15 +15,6 @@ export function Navbar() {
         </Link>
       </div>
       <div className="flex items-center space-x-4">
-        <Link href="#how-it-works" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-          How It Works
-        </Link>
-        <Link href="#faqs" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-          FAQs
-        </Link>
-        <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-          Sign In
-        </Button>
         <ThemeToggle />
       </div>
     </nav>
