@@ -218,7 +218,7 @@ export function Hero() {
               {statusMessage}
             </p>
           )}
-          {billId && (processStatus === 'ocr_extracting' || processStatus === 'complete') && (
+          {billId && (processStatus === 'analyzing' || processStatus === 'complete') && (
             <p className="text-center text-sm mt-2 text-gray-700 dark:text-gray-300">
               Bill ID: {billId}
             </p>
