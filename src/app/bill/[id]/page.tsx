@@ -425,6 +425,7 @@ export default function BillResultsPage() {
             </ScrollArea>
             <div className="flex space-x-2 mt-auto mb-5">
               <Input
+                className="flex-1"
                 placeholder="e.g., Why is my score low?"
                 value={chatInput}
                 onChange={(e) => setChatInput(e.target.value)}
